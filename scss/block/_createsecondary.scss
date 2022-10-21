@@ -1,0 +1,126 @@
+.create-secondary__container{
+  padding-left: 85px;
+  padding-right: 127px;
+  display: flex;
+  justify-content: space-between;
+}
+.create-secondary__number-blok{
+  width: 255px;
+}
+.number-blok__number{
+  display: inline-block;
+  font-family: 'Fraunces 9pt';
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin-right: 28px;
+height: 32px;
+}
+.number-blok__title{
+  display: inline-block;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ADB0B2;
+  height: 32px
+}
+.grindbean{
+  color: #0E8784;
+}
+.bentype{
+  color: #848990;
+}
+.deliveris{
+  color: #333D4B;;
+}
+.create-secandary__title{
+  font-family: 'Fraunces 9pt';
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #83888F;
+margin-bottom: 56px;
+}
+.create-secandary__title:hover{
+  cursor: pointer;
+  color: #000;
+}
+.create-secandary__list{
+  display: flex;
+  justify-content: space-between;
+
+}
+.create-secandary__item{
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+border-radius: 8px;
+ padding: 32px 28px 84px 28px;
+ transition-duration: 1s;
+ transition-property: all;
+ transition-timing-function: ease;
+ margin-right: 23px;
+ margin-bottom: 88px;
+}
+.create-secandary__item:hover{
+  background-color: rgb(254, 245, 114);
+}
+.create-secandary-task{
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  height: 32px;
+  margin-bottom: 24px;
+}
+.create-secandary-text{
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+   color:#545C65;
+}
+.blue{
+  background: #0E8784;
+}
+.blue-filter{
+  color: #FFF;
+}
+.blue-text{
+  color: #FEFCF7;
+}
+.purple{
+  background: #FDD6BA;
+}
+.create-secandary__last{
+  padding: 27px 64px;
+  background-color: #282F38;
+  width: 730px;
+ height: 208px;
+ margin-bottom: 40px;
+}
+.last__page{
+  width: 602px;
+height: 154px;
+  background-image: url(../../img/secandarylastpng.png);
+ background-repeat: no-repeat;
+}
+.end{
+ margin-left: auto;
+ margin-right: 22px;
+ margin-bottom: 168px;
+}
+.create-secandary__title-blok{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.number-blok__title:hover{
+  color: #000;
+  cursor:pointer;
+}
