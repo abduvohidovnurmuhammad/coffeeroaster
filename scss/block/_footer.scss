@@ -48,3 +48,30 @@ color: #FEFCF7;
   display: flex;
   justify-content: space-between;
 }
+@media only screen and (max-width:710px) {
+  .site-footer__container,.site-footer__list{
+    display: block;
+  }
+  .site-footer__link{
+    margin-bottom: 48px;
+  }
+  .site-footer__item {
+    margin-bottom: 24px;
+  }
+  .item__link{
+    margin: 0 auto ;
+    position: relative;
+    right: -10%;
+  }
+.site-footer__img{
+  margin: 0 auto ;
+  position: relative;
+  right: -41%;
+}
+.site-footer__social-blok{
+  margin: 0 auto;
+  position: relative;
+  right: 19%;
+}
+}
+

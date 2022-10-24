@@ -28,3 +28,13 @@
   color: #FEFCF7;
   opacity: 0.8;
 }
+@media only screen and (max-width:710px){
+  .create-main__container{
+    background-image: url(../../img/createheromenu.jpg);
+  }
+  .create-main__block{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+}

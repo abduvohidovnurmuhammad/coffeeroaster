@@ -1,5 +1,5 @@
 .about-main__heroour-blok{
-  width: 1110px;
+  max-width: 1110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +7,7 @@
   margin-bottom: 168px;
 }
 .about-main__ourimg{
-  width: 335px;
+  max-width: 335px;
 }
 .about-main__outtitle{
   font-family: 'Fraunces';
@@ -24,6 +24,20 @@ color: #333D4B;
 opacity: 0.8;
 }
 .about-main__ourcommintet{
-  width: 540px;
+  max-width: 540px;
 }
-
+@media only screen and (max-width:710px) {
+  .about-main__heroour-blok{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .about-main__ourimg{
+    margin-bottom: 48px;
+  }
+  .about-main__outtitle,.about-main__outtext{
+    max-width: 327px;
+  }
+  .about-main__ourcommintet{
+    margin-bottom: 200px;
+  }
+}

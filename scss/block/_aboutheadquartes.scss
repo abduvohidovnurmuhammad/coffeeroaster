@@ -10,7 +10,7 @@ margin-bottom: 72px;
   margin-bottom: 168px;
 }
 .about-headquartes__block{
-  width: 1045px;
+  max-width: 1045px;
   height: 366px;
   margin: 0 auto;
 }
@@ -21,10 +21,11 @@ font-size: 32px;
 line-height: 36px;
 color: #333D4B;
 padding-top: 46px;
-width: 272px;
+max-width: 272px;
 }
 .about-countries{
   display: flex;
+
 }
 .about-European{
   margin-right: 95px;
@@ -53,3 +54,27 @@ color: #333D4B;
   background-image: url(../../img/aboutcountires2.png);
   background-repeat: no-repeat;
 }
+@media only screen and (max-width:710px){
+  .about-headquartes__block,.about-headquartes_countires{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about-countries{
+    
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .about-European{
+    margin-bottom: 80px;
+  }
+  .about-European:nth-child(2),
+    .about-European:nth-child(3){
+      display: none;
+    }
+
+  }
+

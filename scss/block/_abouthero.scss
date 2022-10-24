@@ -4,7 +4,7 @@
   height: 450px;
   margin-bottom: 168px;
   padding-top: 200px ;
-  width: 1320px;
+  max-width: 1320px;
 }
 .about-main__block{
   max-width: 445px;
@@ -24,4 +24,14 @@ margin-bottom: 24px;
   line-height: 26px;
   color: #FEFCF7;
   opacity: 0.6;
+}
+@media only screen and (max-width:710px){
+  .about-main__container{
+    background-image: url(../../img/aboutheromobile.jpg);
+  }
+  .about-main__block{
+    margin: 0 auto;
+    align-items: center;
+  }
+  
 }

@@ -1,5 +1,5 @@
 .number__container{
-  width: 1280px;
+  max-width: 1280px;
 height: 653px;
 background-color: #293039;
 padding: 100px 150px 99px 85px;
@@ -43,4 +43,24 @@ border-radius: 50%;
   width: 100%;
   height: 2px;
   background-color:  #FDD6BA;
+}
+@media only screen and (max-width:710px){
+  .create-work__dash{
+    display: none;
+  }
+  .work__list{
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  .work__item{
+    background-color: #293039;
+  }
+  .number__container{
+    height: 1390px;
+    margin-bottom: 120px;
+  }
 }

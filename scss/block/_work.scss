@@ -1,5 +1,5 @@
 .work__container{
-  width: 1045px;
+  max-width: 1045px;
   margin: 0 auto;
   }
   .work{
@@ -57,7 +57,7 @@
     padding-bottom: 64px;
   }
   .work__item{
-    width: 285px;
+    max-width: 285px;
     border: 3px solid transparent;
     margin-bottom: 64px;
     
@@ -93,3 +93,28 @@
     }
     .work__item:hover{
       background-color: #d36dd3;}
+      @media only screen and (max-width:710px){
+        .work__title,.work__dash{
+          display: none;
+        }
+        .work__list{
+          flex-wrap: wrap;
+          display: block;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 0 auto;
+
+        } 
+        .btnwork{
+          vertical-align: middle;
+          margin: 0 auto ;
+          position: relative;
+          background-size: center;
+          right: -34%;
+        }
+
+
+        
+      }

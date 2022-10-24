@@ -103,3 +103,21 @@ color: #FEFCF7;
 background-color: purple;
 cursor: pointer;
 }
+@media only screen and (max-width:710px) {
+  .choose__top{
+    margin-top: 210%;
+  }
+  .choose__emty{
+    height: 162%;
+    top: 96%;
+
+  }
+  .choose__list{
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+  }
+  .choose__item{
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+}

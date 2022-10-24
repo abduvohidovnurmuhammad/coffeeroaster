@@ -2,7 +2,7 @@
   margin-bottom: 200px;
  }
 .hero-our__blok{
-  width: 1111px;
+  max-width: 1111px;
   margin: 0 auto;
   height: 524px;
   background-image: url(../img/bg_collection.svg);
@@ -14,7 +14,7 @@
   justify-content: space-between;
 }
 .hero-our__imgblock{
-  width: 255px;
+  max-width: 255px;
   margin-bottom: 70px;
 }
 .hero-our__title{
@@ -28,7 +28,7 @@ text-align: center;
 margin-bottom: 22px;
 }
 .item__superior{
-  width: 255px;
+  max-width: 255px;
 }
 .hero-our__text{
   font-family: 'Barlow';
@@ -46,3 +46,21 @@ color: #333D4B;
 .hero-our__item:hover{
   background-color: #00ffd0;
   cursor: pointer;}
+  @media only screen and (max-width:710px){
+    .hero-our_list{
+      flex-wrap: wrap;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 120px;
+    }
+    .hero-our__blok{
+      position: relative;
+      background-image: url(../../img/ourmobile.png);
+      background-position:  top center ;
+      
+      background-repeat: no-repeat;
+      margin-left: auto;
+      text-align: center;
+      display: flex;
+    }
+  }
